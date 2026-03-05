@@ -1,0 +1,16 @@
+# Credentials & secrets
+.env
+data/token.json
+
+# Runtime output (keep structure, ignore data files)
+data/*.json
+data/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
